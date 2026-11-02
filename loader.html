@@ -21,6 +21,11 @@
                     document.getElementById("author").textContent = gData['author'];
                     document.querySelector("iframe").src = gData['frame'];
                     document.getElementById("description").innerHTML = gData['description'];
+
+                    if (gName == "ultrakill") { 
+                        document.querySelector("iframe").width = "1280";
+                        document.querySelector("iframe").height = "720";
+                    }
                 }
                 window.onload = () => { start() }
             </script>

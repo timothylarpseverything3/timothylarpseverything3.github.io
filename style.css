@@ -90,6 +90,10 @@ h1 {
     background-image: url("/assets/covers/ducklife.webp");
     background-size: cover;
 }
+#ultrakill-card {
+    background-image: url("/assets/covers/ultrakill.png");
+    background-size: cover;
+}
 
 #frame {
     display: flex;
