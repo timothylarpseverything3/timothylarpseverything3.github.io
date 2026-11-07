@@ -66,6 +66,7 @@ h1 {
 }
 #mc-card {
     background-image: url("/assets/covers/mc.png");
+    background-size: cover;
 }
 #webdashers-card {
     background-image: url("/assets/covers/webdashers.png");
@@ -92,6 +93,10 @@ h1 {
 }
 #ultrakill-card {
     background-image: url("/assets/covers/ultrakill.png");
+    background-size: cover;
+}
+#bitlife-card {
+    background-image: url("/assets/covers/bitlife.png");
     background-size: cover;
 }
 
