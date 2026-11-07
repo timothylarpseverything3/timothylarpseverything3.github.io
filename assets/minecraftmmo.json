@@ -1,6 +1,0 @@
-{
-    "title": "Minecraft-ish MMO",
-    "author": "Griffpatch",
-    "frame": "/assets/minecraftmmo/index.html",
-    "description": "Controls:<br>[Cursor Keys / WASD] to move<br>[Click] to mine / place<br>[1..9] Switch Hotbar for placement<br>[R / Green Flag] Respawn / Keep Items<br>[U] Enable fly mode when stuck in Land Claims<br>[N] Show player slots<br>[T] to Talk (or C for chat... whatever!)<br>[F] Eat food<br>[Space] over a tile to see who changed it<br>Stand next to a crafting table to craft more items"
-}

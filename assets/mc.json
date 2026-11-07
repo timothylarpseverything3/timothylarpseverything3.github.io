@@ -1,0 +1,6 @@
+{
+    "title": "Minecraft 1.12",
+    "author": "Mojang, lax1dude, ayunami2000",
+    "frame": "/assets/mc/index.html",
+    "description": "Minecraft rebuilt to run on JavaScript and WebAssembly. Build and survive in singleplayer, join hundreds of multiplayer servers or open your world to friends."
+}
