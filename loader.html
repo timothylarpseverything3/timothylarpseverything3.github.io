@@ -22,7 +22,7 @@
                     document.querySelector("iframe").src = gData['frame'];
                     document.getElementById("description").innerHTML = gData['description'];
 
-                    if (gName == "ultrakill") { 
+                    if (gName == "ultrakill" || gName == "monkeymart") {
                         document.querySelector("iframe").width = "1280";
                         document.querySelector("iframe").height = "720";
                     }
@@ -33,6 +33,14 @@
                     if (gName == "mc") { 
                         document.querySelector("iframe").width = "1280";
                         document.querySelector("iframe").height = "720";
+                    }
+
+                    if (navigator.maxTouchPoints > 1) {
+                        document.querySelector("iframe").width = null;
+                        document.querySelector("iframe").height = null;
+
+                        document.querySelector("iframe").style.width = "100%";
+                        document.querySelector("iframe").style.aspectRatio = "16 / 9";
                     }
                 }
                 window.onload = () => { start() }

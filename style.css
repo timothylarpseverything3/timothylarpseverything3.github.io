@@ -99,6 +99,10 @@ h1 {
     background-image: url("/assets/covers/bitlife.jpg");
     background-size: cover;
 }
+#monkeymart-card {
+    background-image: url("/assets/covers/monkeymart.png");
+    background-size: cover;
+}
 
 #frame {
     display: flex;
